@@ -1559,12 +1559,12 @@ header {
     position: relative; }
     .blog-section .bg-wrapper:before {
       content: '';
-      position: absolute;
+     /* position: absolute;
       top: -500px;
       left: 0;
       width: 100%;
       height: 813px;
-      background: url("../images/section-bg.png") no-repeat;
+      background: url("../images/section-bg.png") no-repeat;*/
       background-size: cover; }
   .blog-section .item-wrap {
     display: block; }

@@ -28,8 +28,13 @@
 /* ==========================================================================
    01. GENERAL & BASIC STYLES
    ========================================================================== */
-.pc {display:block;}
-.m {display:none;}
+.pc {
+display:block;
+margin: auto;
+}
+.m {display:none;
+margin: auto;
+}
 .pc_table {display:table;}
 .m_table {display:none;}
 table {border-spacing:0; border-collapse:collapse}
@@ -3112,6 +3117,13 @@ footer.footer {
 }
 
 .topimg {
-  height: 85%;
-    width: 85%;
+  height: 80%;
+  text-align: center;
+  max-width: 100%;
+
+
+}
+.topimg2 {
+  height: 100%;
+    width: 100%;
 }
